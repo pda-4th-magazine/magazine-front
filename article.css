@@ -1,0 +1,42 @@
+article{
+    display: flex;
+    flex-direction: row;
+    margin: 3% 3% 0% 3%;
+
+    border-top-style: solid;
+    border-width: 2px;
+    border-color: gray;
+
+    justify-content: space-between;
+
+    padding: 3% 0% 3% 0%;
+ }
+
+#article-summary{
+    border-right-style:  solid;
+    border-color: grey;
+    border-width: 2px;
+
+    flex: 1;
+}
+
+.summary-content{
+    margin-bottom: 15%;
+    width: 80%;
+}
+
+.summary-content{}
+
+#article-imgs{
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    align-items: flex-end;
+}
+
+.article-img{
+    width: 95%;
+    height: 600px;
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
