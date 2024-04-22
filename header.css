@@ -20,3 +20,62 @@ header .container .top-nav {
   align-items: center;
 }
 
+header .container .top-nav .nav-items {
+  margin-right: 20px;
+}
+
+header .container .top-nav .navbar-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .top-nav .navbar-right {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .top-nav .navbar-right #navebar-right-item {
+  margin-right: 20px;
+}
+
+header .container .top-nav .navbar-right .top-lang {
+  display: flex;
+  justify-content: space-between;
+}
+
+header .container .top-nav .navbar-right button {
+  border-radius: 6px;
+  background: rgb(25, 25, 25);
+
+  color: rgb(253, 251, 245);
+  font-family: Roboto Mono;
+
+  width: 100px;
+  height: 35px;
+  text-align: center;
+
+  font-weight: 400;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+
+
+header .container .top-nav .navbar-right .border {
+  background: rgb(25, 25, 25);
+
+  /* Border */
+  width: 1px;
+  height: 40px;
+}
+
+header .container .top-nav .navbar-right #badge {
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid rgb(25, 25, 25);
+  border-radius: 500px;
+  text-align: center;
+
+  margin-right: 20px;
+}
