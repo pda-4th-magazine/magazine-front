@@ -1,3 +1,7 @@
+header {
+  margin: 3% 3% 0% 3%;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
