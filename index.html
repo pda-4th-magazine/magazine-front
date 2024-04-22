@@ -9,16 +9,6 @@
 </head>
 <body>
   <header>
-      <!-- Let's Talk Button -->
-      <button type="button" onclick="alert('Let\'s Talk')">
-        <img src="./header/image/Button.svg"/>
-      </button>
-      <!-- language badge -->
-      <div class="top-lang">
-        <a href="#"><img src="./header/image/Badge-2.svg" alt="LN" /></a>
-        <a href="#"><img src="./header/image/Badge-1.svg" alt="IN" /></a>
-        <a href="#"><img src="./header/image/Badge.svg" alt="FB" /></a>
-      </div>
     <div class="container">
       <img class="top-logo" src="./header/image/Logo.svg" alt="logo" />
       <!-- navigation -->
@@ -32,6 +22,18 @@
         <a class="nav-items" id="pages" href="#">PAGES</a>
         <a class="nav-items" id="cart" href="#">CART</a>
   
+        <div class="navbar-right">
+          <!-- Let's Talk Button -->
+          <button id="navebar-right-item" type="button" onclick="alert('Let\'s Talk')">LET'S TALK</button>
+          <div id="navebar-right-item" class="border"></div>
+          <!-- language badge -->
+          <div id="navebar-right-item" class="top-lang">
+            <a id="badge" href="#">LN</a>
+            <a id="badge" href="#">IN</a>
+            <a id="badge" href="#">FB</a>
+          </div>
+        </div>
+      </nav>
     </div>
   </header>
   
