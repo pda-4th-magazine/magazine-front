@@ -2,7 +2,7 @@
 
 
 #contact-section{
-    margin: 5% 3%;
+    margin: 3% 3%;
     display: flex;
     justify-content: space-between;
     height: 240px;
@@ -25,6 +25,7 @@
 #contact-title p:first-child{
     font-size: 15px;
     font-family: "Roboto Mono", monospace;
+    font-weight: bold;
 }
 
 #contact-title p{
