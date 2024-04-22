@@ -1,3 +1,51 @@
-#newsletter-title{
-    font-size: large;
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+
+section{
+    margin: 5% 3%;
+    display: flex;
+    justify-content: space-between;
+    height: 240px;
+
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: gray;
+
+    padding: 3% 0%
+ }
+
+#newsletter-title {
+    border-right-style: solid;
+    border-right-width: thin;
+    border-color: gray;
+    width: 75%;
+}
+
+#newsletter-title p:first-child{
+    font-size: 15px;
+    font-family: "Roboto Mono", monospace;
+}
+
+#newsletter-title p{
+    font-size: 50px;
+    font-family: 'Pretendard';
+    margin: 1% 0%;
+    line-height: 110%;
+    font-weight: 550;
+}
+
+
+
+#newsletter-form{
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#newsletter-form p{
+    padding-left: 5%;
+    margin: 1%;
 }
