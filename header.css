@@ -45,6 +45,7 @@ header .container .top-nav .navbar-right #navebar-right-item {
 header .container .top-nav .navbar-right .top-lang {
   display: flex;
   justify-content: space-between;
+  gap: 20px;
 }
 
 header .container .top-nav .navbar-right button {
@@ -80,6 +81,4 @@ header .container .top-nav .navbar-right #badge {
   border: 1px solid rgb(25, 25, 25);
   border-radius: 500px;
   text-align: center;
-
-  margin-right: 20px;
 }
