@@ -1,0 +1,63 @@
+header #services {
+  display: none;
+}
+
+header #studio {
+  display: none;
+}
+
+header #services {
+  display: none;
+}
+
+header #shop {
+  display: none;
+}
+
+header #pages {
+  display: none;
+}
+
+header #cart {
+  display: none;
+}
+
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+header .container .top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+header .container .top-nav .navbar-right {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header .container .top-nav .navbar-right #navebar-right-item {
+  margin-right: 20px;
+}
+
+header .container .top-nav .navbar-right .border {
+  display: none;
+}
+
+header .container .top-nav .navbar-right .top-lang {
+  display: none;
+}
+
+header .container .top-nav .navbar-right .navebar-right-item {
+  display: none;
+}
+
+header .container .top-nav .navbar-right .top-lang {
+  display: none;
+}
