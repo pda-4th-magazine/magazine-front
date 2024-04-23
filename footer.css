@@ -17,6 +17,10 @@ footer{
     width: 20%;
 }
 
+#footer-logo-mobile{
+    display: none;
+}
+
 #footer-nav{
     display: flex;
     flex-direction: row;
@@ -54,4 +58,8 @@ footer{
     color: white;
     border-radius: 5px;
     overflow: hidden;
+}
+
+#copyright-mobile{
+    display: none;
 }
