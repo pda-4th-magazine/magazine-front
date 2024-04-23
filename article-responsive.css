@@ -1,0 +1,33 @@
+header{
+    display: none;
+}
+
+#hero{
+    display: none;
+}
+
+#contact-section{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+article{
+    flex-direction: column;
+}
+
+#article-summary{
+    border: none;
+}
+
+#article-imgs{
+    align-items: center;
+}
+
+.article-img{
+    width: 100%;
+    height: fit-content;
+    max-height: 214.575px;
+}
