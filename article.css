@@ -1,0 +1,26 @@
+#article {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#article .content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content div:first-child div:first-child {
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 110%;
+}
+
+.content div:first-child div:nth-child(2) {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.content img {
+  width: 1250px;
+}
