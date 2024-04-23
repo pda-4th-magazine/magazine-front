@@ -10,12 +10,23 @@ header {
 
 #top-nav {
   display: flex;
+  align-items: center;
 
-  width: 20%;
+  gap: 32px;
 }
 
 #top-nav div:first-child {
   display: flex;
 
   justify-content: space-between;
+}
+
+#top-nav button{
+  position: static;
+
+  background-color: rgb(25,25,25);
+  color: rgb(239, 239, 239);
+  border-radius: 6px;
+  height: 35px;
+  padding:10px 16px;
 }
