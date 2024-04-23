@@ -1,0 +1,40 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css");
+
+footer{
+    flex-direction: column;
+}
+
+#footer-logo{
+    display: none;
+}
+
+#footer-logo-mobile{
+    display: unset;
+    margin: 15% 0%;
+}
+
+#footer-nav{
+    border: none;
+    flex-direction: column;
+    width: unset;
+    padding: unset;
+}
+
+.nav-column{
+    margin: unset;
+    margin-bottom: 10%;
+}
+
+#copyright-mobile{
+    margin: 10% 3%;
+    display: block;
+}
+
+#copyright-mobile p{
+    font-size: 15px;
+    word-spacing: 8px;
+    margin: 0%;
+}
+#copyright-mobile p:nth-child(2){
+    word-spacing: 50px;
+}
