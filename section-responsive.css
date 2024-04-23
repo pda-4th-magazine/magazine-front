@@ -1,0 +1,42 @@
+header{
+    display: none;
+}
+
+#hero{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+#contact-section{
+    flex-direction: column;
+    justify-self: unset;
+    padding: 13% 0%;
+}
+
+
+#contact-title{
+    width: 100%;
+    border:none;
+}
+
+#contact-summary{
+    width: 100%;
+    align-items: flex-start;
+}
+
+#contact-title p:nth-child(2){
+    font-size: 24px;
+    margin: 8% 0%;
+}
+
+#contact-summary p{
+    font-size: 16px;
+}
+
+#contact-summary p{
+    padding-left: 0%;
+    margin: 0%;
+}
