@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  justify-content: space-between;
+
+  margin: 3%;
+  border-bottom-style: solid;
+  border-bottom-width: thin;
+  padding-bottom: 3%;
+}
+
+#top-nav {
+  display: flex;
+
+  width: 20%;
+}
+
+#top-nav div:first-child {
+  display: flex;
+
+  justify-content: space-between;
+}
