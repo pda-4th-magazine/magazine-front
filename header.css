@@ -2,10 +2,9 @@ header {
   display: flex;
   justify-content: space-between;
 
-  margin: 3%;
   border-bottom-style: solid;
   border-bottom-width: thin;
-  padding-bottom: 3%;
+  padding-bottom: 33px;
 }
 
 #top-nav {
